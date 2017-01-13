@@ -1,0 +1,32 @@
+{{extend 'layout.html'}}
+
+{{block header}}
+    <header class="container-fluid background">
+      <div class="jumbotron text-center">
+        {{if response.title:}}
+        <h1>{{=response.title}}
+          <small>{{=response.subtitle or ''}}</small></h1>
+        {{pass}}
+      </div>
+    </header>
+{{end}}
+
+
+<h2>Bienvenidos al sitio de la unidad de aprendizaje de Cálculo Aplicado</h2>
+
+<p>{{=T('La unidad de aprendizaje de Cálculo Aplicado busca una formación reflexiva, crítica, autónoma y racional en el ser humano partiendo del descubrimiento y la investigación. El cálculo proporciona a los ingenieros y tecnólogos los conocimientos necesarios para modelar y resolver problemas prácticos que involucren funciones matemáticas con variable real que llegan a presentarse en el ejercicio de su profesión. Es una herramienta fundamental para el planeamiento y desarrollo de conceptos que permiten entender y asimilar conocimientos de casi todas las áreas de la ingeniería y la tecnología aplicada.')}}</p>
+
+<p>{{=T('   ')}}</p>
+
+<p>{{=T('Esta unidad de aprendizaje está relacionada de forma horizontal con Ecuaciones Diferenciales y de manera vertical con Cálculo y Probabilidad y Estadística, que son fundamentales para el manejo de unidades de aprendizajes como Comunicaciones, Redes y Control. Esta unidad de aprendizaje comienza con las aplicaciones de las derivadas las cuales permiten resolver problemas de optimización, después se continúa con las aplicaciones de la integral para determinar áreas y volúmenes de sólidos, posteriormente se estudian las formas indeterminadas para calcular límites indeterminados e integrales impropias, las cuales se presentan en resolución de problemas de otras áreas como por ejemplo Probabilidad. Por último se analizan los diferentes tipos de series, la forma de representar una función por medio de una serie y los criterios para determinar convergencia o divergencia.')}}</p>
+
+<p>{{=T('   ')}}</p>
+
+<p>{{=T('La presente unidad de aprendizaje se estructura en cuatro unidades las cuales son las siguientes:')}}</p>
+
+<ol>
+  <li>{{=XML(T('Unidad I: Aplicaciones de la derivada.'))}}</li>
+  <li>{{=XML(T('Unidad II: Aplicaciones de la integral.'))}}</li>
+  <li>{{=XML(T('unidad III: Formas indeterminadas e integrales impropias.'))}}</li>
+  <li>{{=XML(T('Unidad IV: Sucesiones y series infinitas.'))}}</li>
+</ol>

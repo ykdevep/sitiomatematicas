@@ -1,0 +1,22 @@
+{{extend 'layout.html'}}
+
+{{block header}}
+    <header class="container-fluid background">
+      <div class="jumbotron text-center">
+        {{if response.title:}}
+        <h1>{{=response.title}}
+          <small>{{=response.subtitle or ''}}</small></h1>
+        {{pass}}
+      </div>
+    </header>
+{{end}}
+
+<h2>{{=T('Definición')}}</h2>
+
+<p>{{=T('   ')}}</p>
+
+<p>{{=T('El concepto de razón de cambio se refiere a la medida en la cual una variable se modifica con relación a otra. Se trata de la magnitud que compara dos variables a partir de sus unidades de cambio. En caso de que las variables no estén relacionadas, tendrán una razón de cambio igual a cero.')}}</p>
+
+<p>{{=T('La razón de cambio más frecuente es la velocidad, que se calcula dividiendo un trayecto recorrido por una unidad de tiempo. Esto quiere decir que la velocidad se entiende a partir del vínculo que se establece entre la distancia y el tiempo. De acuerdo a cómo se modifica la distancia recorrida en el tiempo por el movimiento de un cuerpo, podemos conocer cuál es su velocidad.')}}</p>
+
+{{=BEAUTIFY(response._vars)}}

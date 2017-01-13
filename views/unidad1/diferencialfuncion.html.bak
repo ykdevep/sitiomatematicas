@@ -1,0 +1,39 @@
+{{extend 'layout.html'}}
+
+{{block header}}
+    <header class="container-fluid background">
+      <div class="jumbotron text-center">
+        {{if response.title:}}
+        <h1>{{=response.title}}
+          <small>{{=response.subtitle or ''}}</small></h1>
+        {{pass}}
+      </div>
+    </header>
+{{end}}
+
+<h2>{{=T('Definición')}}</h2>
+
+<p>{{=T('')}}</p>
+
+<p>{{=T('   ')}}</p>
+
+<p>{{=T('Si f(x) es una función derivable, la diferencial de una función correspondiente al incremento h de la variable independiente, es el producto f´(x)*h. La diferencial de una función se representa por dy.')}}</p>
+
+<p>{{=T('   ')}}</p>
+
+<p>{{=T('Ejemplos')}}</p>
+
+<ol>
+  <li><p>{{=T('Calcular el incremento del área del cuadrado de 2 m de lado, cuando aumentamos 1 mm su lado.')}}</p>
+      <p>{{=T('S = x^2 dS = 2x dx')}}</p>
+      <p>{{=T('d(S)= 2*2*0.001 = 0.004 m2')}}</p>
+  </li>
+  <li><p>{{=T('f(x) = 3x^2 + 5x - 6')}}</p>
+      <p>{{=T('df(x) = ( 6x + 5 ) dx')}}</p>
+  </li>
+  <li><p>{{=T('f(x) = e^tg(x)')}}</p>
+      <p>{{=T('df(x) = ( 1 + tg^2(x)) * e^tg(x) dx')}}</p>
+  </li>
+</ol>
+
+{{=BEAUTIFY(response._vars)}}
