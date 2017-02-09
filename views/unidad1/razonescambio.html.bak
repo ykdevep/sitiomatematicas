@@ -11,4 +11,22 @@
     </header>
 {{end}}
 
+<h2>{{=T('Definición')}}</h2>
+
+<p>{{=T('   ')}}</p>
+
+<p>{{=T('El concepto de razón de cambio se refiere a la medida en la cual una variable se modifica con relación a otra. Se trata de la magnitud que compara dos variables a partir de sus unidades de cambio. En caso de que las variables no estén relacionadas, tendrán una razón de cambio igual a cero.')}}</p>
+
+<p>{{=T('La razón de cambio más frecuente es la velocidad, que se calcula dividiendo un trayecto recorrido por una unidad de tiempo. Esto quiere decir que la velocidad se entiende a partir del vínculo que se establece entre la distancia y el tiempo. De acuerdo a cómo se modifica la distancia recorrida en el tiempo por el movimiento de un cuerpo, podemos conocer cuál es su velocidad.')}}</p>
+
+<p>Raz&oacute;n de cambio (de una variable respecto a otra) es la magnitud del cambio de una variable por unidad de cambio de la otra. (Tambi&eacute;n se le llama tasa de cambio.) Si las variables no tienen ninguna dependencia la tasa de cambio es cero. <br />
+<br />
+En general, en una relaci&oacute;n funcional $y=f(x)$, la raz&oacute;n de cambio de la variable dependiente $y$ respecto a la independiente $x$ se calcula mediante un proceso de l&iacute;mite --de la raz&oacute;n $[f(x+t)-f(x)]/t$, denominada cociente diferencial.</p>
+<p>En sentido estricto entonces, la raz&oacute;n de cambio es el l&iacute;mite del cociente diferencial cuando $t$ tiende a cero. De esta manera, la raz&oacute;n de cambio es la interpretaci&oacute;n fundamental de la derivada de una funci&oacute;n.&nbsp;</p>
+<p>Ejemplo</p>
+<p>En la funci&oacute;n lineal $f(x)= mx+b$, no es necesario tomar el l&iacute;mite pues&nbsp; $f(x+t)-f(x)=mx+mt+b-mx-b=mt$ y la t se cancela en la raz&oacute;n $[f(x+t)-f(x)]/t$ sin necesidad de pasar al l&iacute;mite. </p>
+<p>N&oacute;tese que $m$ es la pendiente de la recta $f(x)= mx+b$. Y es la raz&oacute;n de cambio de la altura $y$ (variable dependiente) respecto a la $x$ (variable independiente. Vi&eacute;ndolo gr&aacute;ficamente, es el cambio en la altura $y$ por unidad de cambio (aumento) en la $x$.<br />
+<br />
+En matem&aacute;ticas escolares la raz&oacute;n de cambio m&aacute;s usada es la velocidad: $v=d/t$ (distancia recorrida por unidad de tiempo). La velocidad es, de hecho, la raz&oacute;n de cambio ejemplar o prototipo. Por analog&iacute;a, se le llama &quot;velocidad&quot; a una raz&oacute;n de cambio cualquiera. Por ejemplo, en problemas de proporci&oacute;n inversa.</p>
+
 {{=BEAUTIFY(response._vars)}}

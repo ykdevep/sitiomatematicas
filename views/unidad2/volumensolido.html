@@ -1,3 +1,20 @@
 {{extend 'layout.html'}}
-<h1>This is the unidad2/volumensolido.html template</h1>
+{{extend 'layout.html'}}
+
+{{block header}}
+    <header class="container-fluid background">
+      <div class="jumbotron text-center">
+        {{if response.title:}}
+        <h1>{{=response.title}}
+          <small>{{=response.subtitle or ''}}</small></h1>
+        {{pass}}
+      </div>
+    </header>
+{{end}}
+
+<h2>{{=T('Definición')}}</h2>
+<p>{{=T('  ')}}</p>
+
+<p>Los sólidos de revolución son sólidos que se generan al girar una región plana alrededor de un eje. Por ejemplo: el cono es un sólido que resulta al girar un triángulo recto alrededor de uno de sus catetos, el cilindro surge al girar un rectángulo alrededor de uno de sus lados.</p>
+
 {{=BEAUTIFY(response._vars)}}

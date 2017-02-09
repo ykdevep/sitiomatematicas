@@ -50,43 +50,11 @@ Descargar Exámen B
 <p>{{=T('   ')}}</p>
 <p>{{=T('Enlaces de Descarga de los exámenes de la Unidad 3.')}}</p>
 
-<li>
-<a href="F:\Mis Cosas\Maestría IPN\2do Semestre\Elena\web2py_win\web2py\applications\matematicas\dow\examen3A.pdf" download="examen3A.pdf">
-Descargar Exámen A
-</a>
-</li>
-
-<li>
-<a href="F:\Mis Cosas\Maestría IPN\2do Semestre\Elena\web2py_win\web2py\applications\matematicas\dow\examen3B.pdf" download="examen3B.pdf">
-Descargar Exámen B
-</a>
-</li>
-
 
 <p>{{=T('   ')}}</p>
 <p>{{=T('Enlaces de Descarga de los exámenes de la Unidad 4.')}}</p>
 
-<li>
-<a href="F:\Mis Cosas\Maestría IPN\2do Semestre\Elena\web2py_win\web2py\applications\matematicas\dow\examen4A.pdf" download="examen4A.pdf">
-Descargar Exámen A
-</a>
-</li>
 
-<li>
-<a href="F:\Mis Cosas\Maestría IPN\2do Semestre\Elena\web2py_win\web2py\applications\matematicas\dow\examen42016.pdf" download="examen42016.pdf">
-Descargar Exámen A 2016
-</a>
-</li>
-
-
-<p>{{=T('   ')}}</p>
-<p>{{=T('Enlaces de Descarga de los exámenes extraordinarios.')}}</p>
-
-<li>
-<a href="F:\Mis Cosas\Maestría IPN\2do Semestre\Elena\web2py_win\web2py\applications\matematicas\dow\examen.pdf" download="examen.pdf">
-Descargar Exámen
-</a>
-</li>
 
 
 {{=BEAUTIFY(response._vars)}}
