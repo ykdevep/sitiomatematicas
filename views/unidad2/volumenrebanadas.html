@@ -1,3 +1,50 @@
 {{extend 'layout.html'}}
-<h1>This is the unidad2/volumenrebanadas.html template</h1>
+
+{{block header}}
+    <header class="container-fluid background">
+      <div class="jumbotron text-center">
+        {{if response.title:}}
+        <h1>{{=response.title}}
+          <small>{{=response.subtitle or ''}}</small></h1>
+        {{pass}}
+      </div>
+    </header>
+{{end}}
+
+
+       <div class="row">
+          <div class="col-xs-12" id="1-1">
+            <hr>
+            <h2>2. Vol&uacutemenes usando rebanadas.</h2>
+            <hr>
+            <p><img src="{{=URL('static/images/img','i_2-1_1.jpg')}}"></p>
+    <p>Volumen a la k&eacutesima rebanada es <img src="{{=URL('static/images/img','i_2-1_2.jpg')}}"></p>
+    <p>El volumen puede darse por: <img src="{{=URL('static/images/img','i_2-1_3.jpg')}}"></p>
+    <p>Así también puede ser: <img src="{{=URL('static/images/img','i_2-1_4.jpg')}}"></p>
+    <p>El volumen de un s&oacutelido con &aacuterea de secci&oacuten transversal integrable A(x), desde x=a hasta = b está dado por la integral: <img src="{{=URL('static/images/img','i_2-1_5.jpg')}}"></p>
+
+    <h3>Ejemplo:</h3>
+    <p>Se recomienda hacer los siguientes pasos para la resoluci&oacuten de problemas por rebanadas:</p>
+    <ol>
+    <li>Hacer un esquema del s&oacutelido y una sección transversal representativa.</li>
+    <li>Determinar una f&oacutermula para A(x).</li>
+    <li>Determinar lo l&iacutemites de integraci&oacuten.</li>
+    <li>Integrar A(x) para encontrar en volumen.</li>
+    </ol>
+    <p>Soluci&oacuten:</p>
+    
+    <p>Siguiendo los pasos anteriores:</p>
+    <ol>
+      <li><img src="{{=URL('static/images/img','i_2-1_6.jpg')}}"></li>
+      <li>Por tri&aacutengulos semejantes: <img src="{{=URL('static/images/img','i_2-1_7.jpg')}}"> Por lo tanto: <img src="{{=URL('static/images/img','i_2-1_8.jpg')}}"></li>
+      <li>Los l&iacutemites de integraci&oacuten son de 0 a h (ver figura).</li>
+      <li>Por tanto: <img src="{{=URL('static/images/img','i_2-1_9.jpg')}}"></li>
+    </ol>
+          </div>
+        </div>
+
+
+
+
+
 {{=BEAUTIFY(response._vars)}}

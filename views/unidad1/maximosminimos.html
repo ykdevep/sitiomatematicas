@@ -29,4 +29,92 @@
 
 <p>{{=T('  ')}}</p>
 
+         <div class="row">
+            <div class="col-xs-12" id="1-3">
+              <hr>
+              <h2>3 Aplicaci&oacuten de m&aacuteximo y m&iacutenimos, 3.1 Extremos de una funci&oacuten, 3.2 Criterio de la primera derivada y Concavidad, 3.3 El criterio de la segunda derivada.</h2>
+              <hr>
+            </div>
+              <img src="{{=URL('static/images/img','i_1-2_29.jpg')}}"><br>
+          <p>Una funci&oacuten tienen un m&aacuteximo absoluto en c si f(c) > f(x) para toda x que pertenece a D, donde D es el dominio de la funci&oacuten de manera an&aacuteloga f tiene un m&iacutenimo absoluto en D si f(c) < f(x) para toda x que pertenece a D. </p>
+          <p>De acuerdo a la gr&aacutefica:</p>
+          <p>f(c) > f(x) y  f(b) < f(x)</p>
+          <p>f(c) > f(x) es un m&aacuteximo absoluto y  f(b) < f(x) es u m&iacutenimo absoluto</p>
+
+          <p>Una funci&oacuten posee un m&aacuteximo relativo o local si f(c) > f(x) cuando est&aacute en un intervalo que contiene a c. De forma similar, tiene un m&iacutenimo local si f(c) < f(x), cuando est&aacute en un intervalo que contiene a c.</p>
+
+          <p>En la gráfica:</p>
+          <p>f(a) > f(x) es un m&aacuteximo local el el intervalo [P,B]</p>
+          <p>f(d) < f(x) es un m&iacute local en el intervalo (C,Q)</p>
+
+          <p>Si:</p>
+          <ul>
+          <li>f'(x) > 0, entonces f(x) es creciente</li>
+          <li>f'(x) < f(x), entonces f(x) es decreciente</li>
+          <li>f'(x) cambia de + a - la f tiene un m&aacuteximo</li>
+          <li>f'(x) cambia de - a + la f tiene un mínimo</li>
+          </ul>
+
+          <h3>Ejemplo</h3>
+          <p>Dada la función <img src="{{=URL('static/images/img','i_1-2_30.jpg')}}"> determine los puntos m&aacuteximos y m&iacutenimos, as&iacute como los intervalos donde crece la funci&oacuten y donde decrece. Grafique.</p>
+          <p>Solici&oacuten</p>
+          <p>Aplicamos el cr&iacuteterio de la primera derivada</p>
+          <p>Paso 1. Derivar la función:</p>
+          <img src="{{=URL('static/images/img','i_1-2_31.jpg')}}">
+          <p>Paso 2 Igualar a 0 f'(x) y resolver para x:</p>
+          <img src="{{=URL('static/images/img','i_1-2_32.jpg')}}">
+          <p>Nos apoyamos en la siguiente tabla:</p>
+          <img src="{{=URL('static/images/img','i_1-2_33.jpg')}}">
+
+          <p>m&iacutenimo (-1, 0)</p>
+          <p>Entonces sutituimos en la función f(x)</p>
+          <img src="{{=URL('static/images/img','i_1-2_34.jpg')}}">
+
+          <p>Entonces tenemos m&iacutenimo (2, -27)</p>
+          <p>Luego: </p>
+          <img src="{{=URL('static/images/img','i_1-2_35.jpg')}}">
+
+          <p>As&iacute, los intervalos de concavidad y puntos de inflexci&oacuten son:</p>
+          <ol type="A">
+             <li>(0, 5) max.</li>
+             <li>(-1,0) min.  La funci&oacuten crece (-1,0) U (2,0)</li>
+             <li>(2, -27) min La funci&oacuten decrece (-∞, -1) U (0,2)</li>
+          </ol>
+
+          <p>Graficando:</p>
+          <img src="{{=URL('static/images/img','i_1-2_36.jpg')}}">
+
+          <p>Aplicamos el cr&iacuteterio de la segunda derivada</p>
+          <p>Paso 1. Volver a derivar:</p>
+          <img src="{{=URL('static/images/img','i_1-2_37.jpg')}}">
+          <p>Paso 2 Igualar a 0 f''(x) y resolver para x:</p>
+          <img src="{{=URL('static/images/img','i_1-2_38.jpg')}}">
+          <p>Por tanto, aplicando la fórmula general:</p>
+          <img src="{{=URL('static/images/img','i_1-2_39.jpg')}}">
+          <p>Entonces tenemos que:</p>
+          <ul>
+          <li>f''(-1) = 34 + 2(4-24)  > 0</li>
+          <li>f''(0) = -24 < 0</li>
+          <li>f''(2) = + > 0</li>
+          </ul>
+
+          <p>Haciendo la siguiente tabla:</p>
+
+          <img src="{{=URL('static/images/img','i_1-2_40.jpg')}}">
+
+          <p>Los putos de concavidad son:</p>
+          <img src="{{=URL('static/images/img','i_1-2_41.jpg')}}">
+
+          <p>Los puntos de inflexi&oacuten son:</p>
+          <ul>
+          <li>PI(-0.55,2.31)</li>
+          <li>PI(1.21,-11.22</li>
+          </ul>
+          <p>Grafiandolos, son los que resaltan en amarillo:</p>
+          <img src="{{=URL('static/images/img','i_1-2_42.jpg')}}">
+
+
+
+          </div>
+
 {{=BEAUTIFY(response._vars)}}

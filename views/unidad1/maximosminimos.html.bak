@@ -11,6 +11,22 @@
     </header>
 {{end}}
 
+<h2>{{=T('Definición')}}</h2>
 
+<p>{{=T('Los máximos y mínimos de una función, conocidos colectivamente como extremos de una función, son los valores más grandes (máximos) o más pequeños (mínimos), que toma una función en un punto situado ya sea dentro de una región en particular de la curva (extremo local) o en el dominio de la función en su totalidad (extremo global o absoluto).')}}</p>
+
+<p>{{=T('  ')}}</p>
+
+<h2>{{=T('Extremos de una función')}}</h2>
+
+<p>{{=T('En matemáticas, los máximos y mínimos de una función, conocidos colectivamente como extremos de una función, son los valores más grandes (máximos) o más pequeños (mínimos), que toma una función en un punto situado ya sea dentro de una región en particular de la curva (extremo local) o en el dominio de la función en su totalidad (extremo global o absoluto).1 2 3 De manera más general, los máximos y mínimos de un conjunto (como se define en teoría de conjuntos) son los elementos mayor y menor en el conjunto, cuando existen. El localizar valores extremos es el objetivo básico de la optimización matemática.')}}</p>
+
+<p>{{=T('  ')}}</p>
+
+<h2>{{=T('Criterios de la derivada')}}</h2>
+
+<p>{{=T('En matemáticas, los máximos y mínimos de una función, conocidos colectivamente como extremos de una función, son los valores más grandes (máximos) o más pequeños (mínimos), que toma una función en un punto situado ya sea dentro de una región en particular de la curva (extremo local) o en el dominio de la función en su totalidad (extremo global o absoluto).1 2 3 De manera más general, los máximos y mínimos de un conjunto (como se define en teoría de conjuntos) son los elementos mayor y menor en el conjunto, cuando existen. El localizar valores extremos es el objetivo básico de la optimización matemática.')}}</p>
+
+<p>{{=T('  ')}}</p>
 
 {{=BEAUTIFY(response._vars)}}

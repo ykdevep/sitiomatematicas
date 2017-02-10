@@ -1,3 +1,20 @@
 {{extend 'layout.html'}}
-<h1>This is the unidad2/longitudarco.html template</h1>
+{{extend 'layout.html'}}
+
+{{block header}}
+    <header class="container-fluid background">
+      <div class="jumbotron text-center">
+        {{if response.title:}}
+        <h1>{{=response.title}}
+          <small>{{=response.subtitle or ''}}</small></h1>
+        {{pass}}
+      </div>
+    </header>
+{{end}}
+
+<h2>{{=T('Definición')}}</h2>
+<p>{{=T('  ')}}</p>
+
+<p>La longitud de arco, también llamada rectificación de una curva, es la medida de la distancia o camino recorrido a lo largo de una curva o dimensión lineal. Históricamente, ha sido difícil determinar esta longitud en segmentos irregulares; aunque fueron usados varios métodos para curvas específicas, la llegada del cálculo trajo consigo la fórmula general para obtener soluciones cerradas para algunos casos.</p>
+
 {{=BEAUTIFY(response._vars)}}

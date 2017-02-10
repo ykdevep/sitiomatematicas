@@ -21,12 +21,74 @@
 
 <p>Raz&oacute;n de cambio (de una variable respecto a otra) es la magnitud del cambio de una variable por unidad de cambio de la otra. (Tambi&eacute;n se le llama tasa de cambio.) Si las variables no tienen ninguna dependencia la tasa de cambio es cero. <br />
 <br />
-En general, en una relaci&oacute;n funcional $y=f(x)$, la raz&oacute;n de cambio de la variable dependiente $y$ respecto a la independiente $x$ se calcula mediante un proceso de l&iacute;mite --de la raz&oacute;n $[f(x+t)-f(x)]/t$, denominada cociente diferencial.</p>
+En general, en una relaci&oacute;n funcional y=f(x), la raz&oacute;n de cambio de la variable dependiente "y" respecto a la independiente "x" se calcula mediante un proceso de l&iacute;mite de la raz&oacute;n [f(x+t)-f(x)]/t, denominada cociente diferencial.</p>
 <p>En sentido estricto entonces, la raz&oacute;n de cambio es el l&iacute;mite del cociente diferencial cuando $t$ tiende a cero. De esta manera, la raz&oacute;n de cambio es la interpretaci&oacute;n fundamental de la derivada de una funci&oacute;n.&nbsp;</p>
 <p>Ejemplo</p>
-<p>En la funci&oacute;n lineal $f(x)= mx+b$, no es necesario tomar el l&iacute;mite pues&nbsp; $f(x+t)-f(x)=mx+mt+b-mx-b=mt$ y la t se cancela en la raz&oacute;n $[f(x+t)-f(x)]/t$ sin necesidad de pasar al l&iacute;mite. </p>
-<p>N&oacute;tese que $m$ es la pendiente de la recta $f(x)= mx+b$. Y es la raz&oacute;n de cambio de la altura $y$ (variable dependiente) respecto a la $x$ (variable independiente. Vi&eacute;ndolo gr&aacute;ficamente, es el cambio en la altura $y$ por unidad de cambio (aumento) en la $x$.<br />
+<p>En la funci&oacute;n lineal f(x)= mx+b, no es necesario tomar el l&iacute;mite pues&nbsp; f(x+t)-f(x)=mx+mt+b-mx-b=mt y la t se cancela en la raz&oacute;n [f(x+t)-f(x)]/t sin necesidad de pasar al l&iacute;mite. </p>
+<p>N&oacute;tese que "m" es la pendiente de la recta $f(x)= mx+b$. Y es la raz&oacute;n de cambio de la altura "y" (variable dependiente) respecto a la "x" (variable independiente. Vi&eacute;ndolo gr&aacute;ficamente, es el cambio en la altura "y" por unidad de cambio (aumento) en la "x".<br />
 <br />
-En matem&aacute;ticas escolares la raz&oacute;n de cambio m&aacute;s usada es la velocidad: $v=d/t$ (distancia recorrida por unidad de tiempo). La velocidad es, de hecho, la raz&oacute;n de cambio ejemplar o prototipo. Por analog&iacute;a, se le llama &quot;velocidad&quot; a una raz&oacute;n de cambio cualquiera. Por ejemplo, en problemas de proporci&oacute;n inversa.</p>
+En matem&aacute;ticas escolares la raz&oacute;n de cambio m&aacute;s usada es la velocidad: v=d/t (distancia recorrida por unidad de tiempo). La velocidad es, de hecho, la raz&oacute;n de cambio ejemplar o prototipo. Por analog&iacute;a, se le llama &quot;velocidad&quot; a una raz&oacute;n de cambio cualquiera. Por ejemplo, en problemas de proporci&oacute;n inversa.</p>
+
+
+ <p>La raz&oacuten la expresamos como el cociente de 2 cantidades. Por ejemplo: </p>
+            <img src="{{=URL('static/images','i_1-1_1.jpg')}}">
+            <p>La raz&oacuten de cambio se expresa con la comparaci&oacuten:</p>
+            <img src="img/i_1-1_2.jpg">
+
+            <u>Razones de cambio relacionadas</u>
+            <p>Establecemos una relación entre razones y la variación siempre con respecto al tiempo.</p>
+            <p>Por ejemplo: Si A es el área del circulo con radio “r” encuentre la razón en la que crece el área del círculo.</p>
+            <p>Soluci&oacuten:</p>
+
+            <!--Aquí va un gif-->
+
+            <img src="img/i_1-1_3.jpg">
+            <p>Entonces, tomando en cuenta la fórmula del área del circulo y derivamos de ambos lados, nos quedaría:</p>
+            <img src="img/i_1-1_4.jpg">
+            <p>La razón de cambio sería:</p>
+            <img src="img/i_1-1_5.jpg">
+              
+            <h3>Ejemplos</h3>
+              
+            <p>1. Un globo esférico se infla con aire a razón de 20 <img src="img/i_1-1_6.jpg">. ¿En qué razón cambia el radio este es de 3 ft?</p>
+            <p>Soluci&oacuten</p>
+            <p>Sabemos que dv/dt 20  ft/min y nos piden encontrar dr/dt.</p>
+            <p>Volumen de la esfera</p>
+            <img src="img/i_1-1_7.jpg">
+            <p>Derivando la ecuación (1) nos quedaría:</p>
+            <img src="img/i_1-1_8.jpg">
+            <p>Despejamos dr/dt de la ecuación 2 y sustituimos dv/dt y nos queda:</p>
+            <img src="img/i_1-1_9.jpg">
+            <p>Resolviendo</p>
+            <img src="img/i_1-1_10.jpg">
+
+            <p>2. El automóvil A viaja hacia el oeste a 50 millas por hora (mph) y el auto B viaja al sur a 60 mph. Los dos se dirigen al cruce de 2 carreteras ¿A qué velocidad se acercan entre sí cuando A está a 0.3 millas y B está a o.4 millas del cruce?</p>
+            <p>Solici&oacuten</p>
+            <p>Sabemos que dx/dt = 50 mph y que dy/dt = 60 mph y nos preguntan por dz/dt.</p>
+            <p>Graficando el problema, nos queda de la siguiente manera:</p>
+
+            <!--Aquí va un gif-->
+
+            <p>Podemos tomar la siguiente ecuación para resolver z2 =x2 + y2 … (1)).</p>
+            <p>Derivando la ecuación 1 de los dos lados nos queda:</p>
+            <img src="img/i_1-1_11.jpg">
+            <p>En este punto podemos sacar el valor de z:</p>
+            <img src="img/i_1-1_12.jpg">
+            <p>Despejando dz/dt de la ecuación (2) nos queda:</p>
+            <img src="img/i_1-1_13.jpg">
+            <p>Sustituyendo valores en la ecuación (3):</p>
+            <img src="img/i_1-1_14.jpg">
+
+            <p>3. Cada lado de un cuadrado se incrementa a razón de 6 . ¿En qué proporción se incrementa el área del cuadrado cuando el área del cuadrado es de 16 cm^2?</p>
+            <p>Solici&oacuten</p>
+            <p>Tenemos un cuadrado cuya área puede escribirse: A=16cm^2.</p>
+            <p>Y sabemos que dl/dt = 6 cm/s   , así que tenemos que encontrar dA/dt</p>
+            <p>Sabiendo la fórmula del área del cuadrado la cual es A= l 2  podemos decir que</p>
+            <img src="img/i_1-1_15.jpg">
+            <p>En este punto podemos determinar a l :</p>
+            <img src="img/i_1-1_16.jpg">
+            <p>Por último, sustituimos dl/dt e al l en la ecuación 1:</p>
+            <img src="img/i_1-1_17.jpg">
+        
 
 {{=BEAUTIFY(response._vars)}}
